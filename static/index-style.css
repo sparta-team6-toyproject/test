@@ -1,0 +1,41 @@
+
+* {
+    font-family: 'Noto Serif KR', serif;
+}
+
+.mypic {
+    width: 100%;
+    height: 500px;
+
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjEwMTBfMjY1%2FMDAxNjY1MzcxMzgyNTg2.KLAe4Vm5xndozo1MOkH13U4LW-yjK9Lo8cpkEsa-r7Ag.On8c83cVpaf2qQQ9Eeqk-Fd1VKceNUZ64Way5LhPyHkg.JPEG.shinae90%2F20220920%25A3%25DF135146.jpg&type=sc960_832');
+    background-position: center 50%;
+    background-size: cover;
+
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    max-width: 750px;
+    width: 95%;
+    height: auto;
+
+    border-radius: 10px;
+
+    margin: 20px auto 0px auto;
+    float: center;
+    margin-bottom: 10px auto;
+
+    box-shadow: 0px 0px 3px 0px black;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  margin: 20px auto 20px auto;
+}
